@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #f6f3ee;
+  --foreground: #171717;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+}
+
+button, input, textarea, select {
+  font: inherit;
+}
+
+.card-shadow {
+  box-shadow: 0 16px 40px rgba(15, 23, 42, 0.08);
+}
