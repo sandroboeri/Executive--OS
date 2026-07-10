@@ -1,53 +1,33 @@
-# Executive OS v0.1
+# Executive OS v0.2
 
-A first working prototype of **Executive OS**: a Saturday Executive Review app.
+A clean foundation for the Saturday Executive Review app.
 
-## What this version does
-
-- Saturday Executive Review home screen
-- 12-step guided review flow
+## Includes
+- Correct Next.js `app` directory structure
+- TypeScript and Tailwind CSS
+- 12-step Saturday Executive Review
 - Commitment Register
 - Big Three priorities
-- Positive close
+- Positive Close
 - Executive Brief
-- Local browser saving via `localStorage`
+- Browser-based local saving
 
-## Local setup
-
+## Local development
 ```bash
 npm install
 npm run dev
 ```
 
-Then open:
+## Vercel settings
+- Framework Preset: Next.js
+- Root Directory: leave blank/default
+- Build Command: `npm run build`
+- Output Directory: leave blank/default
 
-```bash
-http://localhost:3000
-```
-
-## Deploy to Vercel
-
-1. Create a GitHub repository called `executive-os`.
-2. Upload these files.
-3. Go to Vercel.
-4. Import the GitHub repository.
-5. Deploy.
-
-## iPhone installation
-
-After deployment:
-
-1. Open the Vercel URL in Safari on iPhone.
-2. Tap Share.
-3. Tap Add to Home Screen.
-4. Name it Executive OS.
-
-## Next version
-
-Suggested v0.2 features:
-
-- Review history
-- Export Executive Brief
-- Proper database storage with Supabase
-- Settings page to customise review steps
-- Separate Commitment Register page
+## Upgrade from v0.1
+1. Open the local GitHub repository folder in Finder.
+2. Delete the existing contents.
+3. Copy all files from this v0.2 folder into the repository.
+4. Commit in GitHub Desktop.
+5. Push origin.
+6. Vercel will deploy automatically.
